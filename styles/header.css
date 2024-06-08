@@ -1,0 +1,84 @@
+.header {
+	background-color: yellow;
+	position: fixed;
+	right:0px;
+	left:0px;
+	top: 0px;
+	height: 60px;
+	background-color: white;
+	border-bottom:2px;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+}
+
+
+.h-buttons ul{
+	display: flex;
+	margin-right: 5px;
+	justify-content: end;
+}
+
+.h-buttons li{
+	list-style-type: none;
+	margin-right: 25px;
+	margin-top: 15px;
+	font-family:arial;
+	font-weight: bold;
+	transform: translateY(-14px);
+	background-color: rgba(0, 130, 115);
+	padding: 5px;
+	border-radius: 4px;
+	transition: background-color .4s
+}
+
+.h-buttons a{
+	text-decoration: none;
+	color: white;
+	padding: 5px;
+	transition: color .4s
+}
+
+.h-buttons li:hover{
+	background-color: white;
+	
+}
+
+.h-buttons li:hover a{
+	text-decoration: none;
+	color: rgba(0, 130, 115);
+}
+
+
+.header p{
+	position:fixed;
+	top: -10px;
+	left: 60px;
+	font-family:arial;
+	font-size: 26px;
+	display:flex;
+	flex:1;
+}
+
+
+.header input{
+	position:fixed;
+	top: 10px;
+	right: 585px;
+	font-family:arial;
+	font-size: 16px;
+	width: 400px;
+	padding: 10px;
+	border-radius: 20px;
+	outline:none;
+	flex:1;
+	min-width: 50px
+}
+
+.header input::placeholder {
+    padding: 20px; 
+    min-width: 50px
+}
+
+
+
+

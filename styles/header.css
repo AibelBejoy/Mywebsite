@@ -28,7 +28,7 @@
 	background-color: rgba(0, 130, 115);
 	padding: 5px;
 	border-radius: 4px;
-	
+	transition: background-color .1s
 }
 
 .h-buttons a{
